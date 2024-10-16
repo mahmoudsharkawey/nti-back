@@ -12,7 +12,7 @@ const app = express();
 app.use(cors());
 app.use(express.json()); 
 
-mongoose.connect('mongodb://localhost:27017/portfolio', {
+mongoose.connect('mongodb://localhost:27017/MgCodeportofolio', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })

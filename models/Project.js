@@ -5,6 +5,6 @@ const projectSchema = new mongoose.Schema({
   link: String,
   description: String,
   icon: String
-});
+}); 
 
 module.exports = mongoose.model('Project', projectSchema);

@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt');
 const User = require('./models/User');
 
 // MongoDB Connection
-mongoose.connect('mongodb://localhost:27017/portfolio', {
+mongoose.connect('mongodb://localhost:27017/MgCodeportofolio', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
@@ -22,4 +22,4 @@ async function updatePassword(email, newPassword) {
     }
 }
 
-updatePassword('amr@gmail.com', '123456789');
+updatePassword('mgCode@gmail.com', 'mgCode@gmail.com');
